@@ -13,6 +13,7 @@ def join_ingredients(src)
     while col_index < src[row_index].count do
       new_array << src[row_index][col_index]
     end
+  end
 end
 
 def find_greater_pair(src)
